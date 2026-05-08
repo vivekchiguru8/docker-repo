@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class HelloDocker {
+    public static void main(String[] args) {
+        System.out.println("========================================");
+        System.out.println("Java is running inside a container!");
+        System.out.println("Current Time: " + new Date());
+        System.out.println("========================================");
+    }
+}
